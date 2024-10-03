@@ -6,6 +6,7 @@
 #include <memory>
 #include <ostream>
 #include <string>
+
 class Simulation {
   public:
     Simulation(std::string name, int timesteps, int simulations, std::shared_ptr<MonteCarlo> mc, OptionsParams params);
